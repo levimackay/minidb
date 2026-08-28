@@ -18,6 +18,13 @@ db > .exit
 backed by a single `.db` file on disk that survives restarts, organized into
 fixed-size pages holding a B-tree.
 
+## Current status
+
+Scaffolding is done: the full 7-phase roadmap, teaching docs for every phase,
+and the Phase 0 stub files with signatures and tests are all written and
+committed. No implementation code yet — next up is actually writing Phase 0
+(binary file I/O and serialization) by hand.
+
 ## The ground rule
 
 **You write every line of implementation code yourself.** No AI-written
