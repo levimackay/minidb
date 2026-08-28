@@ -31,10 +31,13 @@ you're not done with it.
 - `ROADMAP.md` — the phase list with time estimates.
 - `docs/phases/NN-name.md` — one file per phase, broken into tasks sized at
   roughly 1–2 hours each. Every task tells you:
-  1. **Read first** — 2–4 real links (all verified) teaching the concept
-     *before* you code.
-  2. **Build** — what to implement.
-  3. **Why** — what the task teaches and why real databases work this way.
+  1. **The idea** — the concept taught in plain language, assuming no
+     background, so the task doc alone can unstick you.
+  2. **Read first** — at least 3 verified links per task, from different
+     angles (reference, tutorial, video/interactive) to read *before* you
+     code.
+  3. **Build** — what to implement.
+  4. **Why real databases care** — the connection to how real engines work.
 - `src/` — your code. Phase 0 exercises live in `src/phase0/`; the actual
   database starts in `src/` with Phase 1. Stubs exist for Phases 0 and 1;
   later phases you scaffold yourself as you reach them (that's part of the
