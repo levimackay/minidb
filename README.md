@@ -49,6 +49,3 @@ To check the reference solutions pass the same tests:
 make test-phase0 P0=reference/phase0
 make test-phase1 P1=reference/phase1
 ```
-
-**Last updated:** 2026-08-29 11:47 PDT
-
